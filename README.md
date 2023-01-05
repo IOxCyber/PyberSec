@@ -11,6 +11,9 @@
 
 ## IDEs
 [Online IDE - Replit](https://replit.com/)
+[No Sign up - IDE](https://glot.io/)
 
+## Learn by Code
+[Exercism](https://exercism.org/dashboard)
 
 ## Tips
