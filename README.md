@@ -1,4 +1,4 @@
-## PyberSec: Python w.r.t CyberSec.
+# PyberSec: Python w.r.t CyberSec.
 [Official WebSite](https://www.python.org/)
 
 ## Interpreter: Source Code > Intermediate > Output
@@ -10,14 +10,34 @@
 3. [Jython - written in Java](https://www.jython.org/): allows users to write programs in Python and compile them to Java bytecodes that run directly on a Java Virtual Machine, or JVM
 4. [IronPy - written in .net](https://ironpython.net/): an implementation of Python on the . Net runtime, or CLR (Common Language Runtime).
 
-## IDEs
+## Online IDEs
 [Online IDE - Replit](https://replit.com/)
 [No Sign up - IDE](https://glot.io/)
 
 ## Learn by Code
 [Exercism](https://exercism.org/dashboard)
 
-## Tips
+# Theory
+## Datatypes: Fundamental Data Types
+
+- Numberic: int, float, complex
+- String: str
+- Boolean type: bool.
+- Sequence types: list, tuple, range.
+- Set data types: set, frozenset
+- Mapping data type: dict.
+- Binary types: bytes, bytearray, memoryview.
+
+
+### Immutable Datatypes:
+- Numbers (Integer, Rational, Float, Decimal, Complex & Booleans) , Strings, Tuples & Stringfrozen set.
+
+### Classes -> Custom types
+
+### Specialized Data Types: Packages & Modules to add functionality.
+
+### None:  Absence of Value!
+
 
 
 

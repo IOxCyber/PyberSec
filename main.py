@@ -1,1 +1,1 @@
-print('Hello World!')
+print(type(2+4.0))
