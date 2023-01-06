@@ -1,3 +1,5 @@
+# DON't Just LEARN ALL, instead use Learn by Doing!
+
 # PyberSec: Python w.r.t CyberSec.
 [Official WebSite](https://www.python.org/)
 
@@ -16,30 +18,3 @@
 
 ## Learn by Code
 [Exercism](https://exercism.org/dashboard)
-
-# Theory
-## Datatypes: Fundamental Data Types
-
-- Numberic: int, float, complex
-- String: str
-- Boolean type: bool.
-- Sequence types: list, tuple, range.
-- Set data types: set, frozenset
-- Mapping data type: dict.
-- Binary types: bytes, bytearray, memoryview.
-
-
-### Immutable Datatypes:
-- Numbers (Integer, Rational, Float, Decimal, Complex & Booleans) , Strings, Tuples & Stringfrozen set.
-
-### Classes -> Custom types
-
-### Specialized Data Types: Packages & Modules to add functionality.
-
-### None:  Absence of Value!
-
-
-
-
-
-[^1]:Bytecode is computer object code that an interpreter converts into binary machine code so it can be read by a computer's hardware processor. The interpreter is typically implemented as a virtual machine (VM) that translates the bytecode for the target platform.
