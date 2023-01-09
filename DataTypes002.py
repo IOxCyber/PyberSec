@@ -15,3 +15,6 @@ print(abs(2.6))  # No -ve number
 
 # Operater Precedence
 print((2+2)*2-4) # () > ** > *, / > +,-
+
+# bin(): To convert the decimal to bin.
+print(bin(5))

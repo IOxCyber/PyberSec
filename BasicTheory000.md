@@ -20,17 +20,25 @@
 
 ### None:  Absence of Value!
 
-###
+### In-Built Functions
+1. To check the datatype of a var: **type(var)**
+2. The combination of values, variables, operators, and function calls is termed as an **EXPRESSION**.
+3. id() returns an object’s integer identifier, can be used to check **Object Identity** or **a unique identification value of the object stored in the memory**
+4. **pass** keyword used to simply used as a **placeholder for future code**, no error on execution.
+5. Documentation Strings: print(my_function.__doc__) to see the comments/documentation of a program.
+6. 
 
 ### Operator Precedence:
 - The order in which an expression is evaluated.
 - Parentheses > Exponent > Unary (Plus, Minus) bitwise Not > Multi, Div, Floor, Modulo > Add & Sub > Bitwise shift Opr > Bitwise AND > XOR > OR > Comparisons, Identity, Membership operators > Logical NOT > AND > OR
+- 
 
 ### Associativity: 
 - the order in which an expression is evaluated if it has multiple operators of the same precedence.
 - Almost all the operators have **left-to-right associativity** means left one is evaluated first.
+- 
 
-
+ 
 
 
 
