@@ -2,8 +2,9 @@
 
 ## Datatypes: Fundamental Data Types
 
-- Numberic: int, float, complex
-- String: str
+- Numberic:
+  int (whole numbers as 1234, -10), float(0.0,3.14,-9.01), complex
+- String: str ("A String")
 - Boolean type: bool.
 - Sequence types: list, tuple, range.
 - Set data types: set, frozenset
@@ -25,8 +26,13 @@
 2. The combination of values, variables, operators, and function calls is termed as an **EXPRESSION**.
 3. id() returns an object’s integer identifier, can be used to check **Object Identity** or **a unique identification value of the object stored in the memory**
 4. **pass** keyword used to simply used as a **placeholder for future code**, no error on execution.
-5. Documentation Strings: print(my_function.__doc__) to see the comments/documentation of a program.
-6. 
+5. Documentation Strings: print(my_function.__doc__) to see the comments/documentation("""Any Documenation""") for a program.
+6. **int()**: convert a float to an integer.
+   **float()**: convert an integer to a float.
+7. 
+
+
+
 
 ### Operator Precedence:
 - The order in which an expression is evaluated.
