@@ -3,7 +3,7 @@
 ## Datatypes: Fundamental Data Types
 
 - Numberic:
-  int (whole numbers as 1234, -10), float(0.0,3.14,-9.01), complex
+  int (whole numbers as 1234, -10), float(0.0,3.14,-9.01), complex (Not useful for common tasks)
 - String: str ("A String")
 - Boolean type: bool.
 - Sequence types: list, tuple, range.
@@ -29,8 +29,12 @@
 5. Documentation Strings: print(my_function.__doc__) to see the comments/documentation("""Any Documenation""") for a program.
 6. **int()**: convert a float to an integer.
    **float()**: convert an integer to a float.
-7. 
-
+7. bin() - use to convert integer in the Binary.
+```eg.
+print(bin(5)) #convert the 5 into binary number '0b101'
+print(int('0b101', 2)) # convert binary number into integer.
+```
+8. 
 
 
 
