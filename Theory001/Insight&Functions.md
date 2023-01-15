@@ -50,9 +50,11 @@ print(int('0b101', 2)) # convert binary number into integer.
 
  
 
+### Augmented assignment Operator:
+> var = 5 # defined var
+> var -= 5 # use the assignment Operator
 
-
-
+### 
 
 
 [^1]:Bytecode is computer object code that an interpreter converts into binary machine code so it can be read by a computer's hardware processor. The interpreter is typically implemented as a virtual machine (VM) that translates the bytecode for the target platform.

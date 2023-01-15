@@ -19,7 +19,7 @@
 10. Functions **explicitly** return a value or object via the **return** keyword otherwise returns **None**.
 11. **Default Argument** Values must be declare after **Non-Default Argument** in Functions.
 
-### Class:
+### Extra Concepts:
 12. 
 
 # Tips
