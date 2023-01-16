@@ -1,3 +1,20 @@
+# Data types:
+'''
+Numeric data types: int, float, complex
+
+String data types: str
+
+Sequence types: list, tuple, range
+
+Binary types: bytes, bytearray, memoryview
+
+Mapping data type: dict
+
+Boolean type: bool
+
+Set data types: set, frozenset
+'''
+
 # int & float
 print(type(6))
 print(5 + 4, (5 - 4))  # Add&Sub
@@ -36,3 +53,5 @@ It's a multi lines string
 '''
 
 print(long_str)
+
+

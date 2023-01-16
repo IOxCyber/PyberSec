@@ -8,7 +8,8 @@
 ### Object:
 4. Virtually every item of data in a Python program is **an object of a specific type or class.** eg. check the class of the object as type(Obj). [More](https://realpython.com/python-variables/#object-references)
 5. Objects are Python’s abstraction for data & is an instance of a Class.
-6. Every object has an identity, a type and a value.
+6. **Every object has an identity, a type and a value** or identity(address that the object eg. id(var) ), Type(kind of object eg. type(var) ), Value(value stored by the object print(var) ).
+
 7. **id(x)** function to check memory address where x is stored.
 8. **is** operator used to check the Object Identity. eg: A is B.
 
@@ -20,7 +21,10 @@
 11. **Default Argument** Values must be declare after **Non-Default Argument** in Functions.
 
 ### Extra Concepts:
-12. 
+12. formatted String:
+- the process of inserting a custom string or variable in predefined text.
+- 2 ways i.e using print(f"string with {variable}") & string.format(var="value")
+- placeholders can be identified using named indexes {price}, numbered indexes {0}, or even empty placeholders {} [more](https://www.w3schools.com/python/ref_string_format.asp#:~:text=The%20format()%20method%20formats,method%20returns%20the%20formatted%20string.)
 
 # Tips
 1. Terms > Datatypes > Actions > Best Practice
