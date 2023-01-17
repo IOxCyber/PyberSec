@@ -1,4 +1,4 @@
-# Super Basic Concepts
+# : Insight & Concepts in Python :
 
 ## Datatypes: Fundamental Data Types
 
@@ -12,28 +12,9 @@
 - Binary types: bytes, bytearray, memoryview.
 
 
-### Classes -> Custom types
-
 ### Specialized Data Types: Packages & Modules to add functionality.
 
 ### None:  Absence of Value!
-
-### In-Built Functions
-1. To check the datatype of a var: **type(var)**
-2. The combination of values, variables, operators, and function calls is termed as an **EXPRESSION**.
-3. id() returns an object’s integer identifier, can be used to check **Object Identity** or **a unique identification value of the object stored in the memory**
-4. **pass** keyword used to simply used as a **placeholder for future code**, no error on execution.
-5. Documentation Strings: print(my_function.__doc__) to see the comments/documentation("""Any Documenation""") for a program.
-6. **int()**: convert a float to an integer.
-   **float()**: convert an integer to a float.
-7. bin() - use to convert integer in the Binary.
-```eg.
-print(bin(5)) #convert the 5 into binary number '0b101'
-print(int('0b101', 2)) # convert binary number into integer.
-```
-8. 
-
-
 
 ### Operator Precedence:
 - The order in which an expression is evaluated.
@@ -48,11 +29,17 @@ print(int('0b101', 2)) # convert binary number into integer.
  
 
 ### Augmented assignment Operator:
-> var = 5 # defined var
-> var -= 5 # use the assignment Operator
+> short hand for var = var + 1
+> var = 1 # defined var
+> var -= 1 # use the assignment Operator
+> var += 1 # use the assignment Operator
 
-### ### Immutable Datatypes:
-> 
+
+### Immutable Datatypes:
+>
+> **If we do any operation/modification on immutable datatype, at run time the temp variable of that datatype will be created & show the output and get destroyed as soon as the program terminated.**
+>
+
 '''
 - Int, Float, Tuple, Complex, String, Stringfrozen set [note: immutable version of the set], Bytes
 - Changes internal state of the object i.e memory address & can be checked by id(var)
