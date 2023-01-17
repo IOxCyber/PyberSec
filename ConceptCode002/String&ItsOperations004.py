@@ -41,7 +41,6 @@ print('Hi {0}, you are {1}'.format('Ferrv', 'Awesome'))  # numbered indexes {0}
 
 
 ### String Immutablity ###
-
 str = 'A B C D E'
 print(str)
 
@@ -49,3 +48,13 @@ print(str)
 print(str.replace('A', 'Z'))
 print('')
 print(str)
+
+### booleans ###
+# bool i.e True (1) or False (0)
+var1 = False
+var2 = True
+
+# integer to boolean
+print(bool(0)) 
+
+

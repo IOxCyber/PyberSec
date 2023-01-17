@@ -10,7 +10,7 @@ Binary types: bytes, bytearray, memoryview
 
 Mapping data type: dict
 
-Boolean type: bool
+Boolean type: bool (True 1, False 0)
 
 Set data types: set, frozenset
 '''
@@ -35,7 +35,7 @@ print((2+2)*2-4) # () > ** > *, / > +,-
 
 # bin(): To convert the decimal to bin.
 print(bin(5))
-print(int('0b101', 2)
+print(int('0b101', 2))
 
 # string str()
 str1 = "with Double Quotes"

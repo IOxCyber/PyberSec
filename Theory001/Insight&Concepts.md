@@ -41,7 +41,7 @@
 >
 
 '''
-- Int, Float, Tuple, Complex, String, Stringfrozen set [note: immutable version of the set], Bytes
+- Int, Float, Tuple, bool, Complex, String, Stringfrozen set [note: immutable version of the set], Bytes
 - Changes internal state of the object i.e memory address & can be checked by id(var)
 - as the value changes, the internal state ie memory address (identity) will change.
 - immutable objects, you seal the values and ensure that no threads can invoke overwrite/update to your data

@@ -8,5 +8,4 @@ current_year = datetime.date.today(
 
 age = current_year - birth_year
 
-print(f'your age is {age}.')  # using string formatting to print the output.
-
+print(f'your age is {age}')  # using string formatting to print the output.
