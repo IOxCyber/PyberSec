@@ -55,3 +55,10 @@ It's a multi lines string
 print(long_str)
 
 
+# booleans
+# bool i.e True (1) or False (0)
+var1 = False
+var2 = True
+
+# integer to boolean
+print(bool(0)) 

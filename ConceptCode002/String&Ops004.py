@@ -41,20 +41,20 @@ print('Hi {0}, you are {1}'.format('Ferrv', 'Awesome'))  # numbered indexes {0}
 
 
 ### String Immutablity ###
+# Example 1:
 str = 'A B C D E'
 print(str)
 
-# String modified here & new temp new str var created & destroyed after execution comleted but Original string never chages as "String" is immutable
+# String modified here & new temp new str var created & destroyed after execution completed but Original string never chages as "String" is immutable
 print(str.replace('A', 'Z'))
 print('')
 print(str)
 
-### booleans ###
-# bool i.e True (1) or False (0)
-var1 = False
-var2 = True
+# Example 2:
+str1 = 'Helloo'
+# str1[0] = 'N' # gives error coz String are immutable & indexes can't be re-assign.
 
-# integer to boolean
-print(bool(0)) 
+print(str1[0:4],'&') # can access the string by index.
+print(str1)
 
 
