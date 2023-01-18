@@ -15,10 +15,12 @@
 7. **int()**: convert a float to an integer.
    **float()**: convert an integer to a float.
 
-8. bin() - use to convert integer in the Binary.
+8. bin() - use to convert integer into the Binary.
 ```eg.
 print(bin(5)) #convert the 5 into binary number '0b101'
 print(int('0b101', 2)) # convert binary number into integer.
 ```
 
-9. 
+9. Use to calculate the length of string, eg. len(string)
+
+10. 
