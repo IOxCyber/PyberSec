@@ -1,6 +1,6 @@
-# : Insight & Concepts in Python :
+## :: Insight & Concepts in Python ::
 
-## Datatypes: Fundamental Data Types
+### Datatypes: Fundamental Data Types
 
 - Numberic:
   int (whole numbers as 1234, -10), float(0.0,3.14,-9.01), complex (Not useful for common tasks)
@@ -68,7 +68,7 @@ we were able to change the internal state of the object ‘cities’ by adding o
 '''
 ```
 
-### Address is the type of <int> hence below operations are possible.
+### Address is the type of `int` hence below operations are possible.
 ```
 x = 3
 y = 3
@@ -83,7 +83,7 @@ print(type(id(z)))
 - means any modification will change the value in a memory region.
 - list are mutable, hence new list will not created but modified the original one.
 
-### Assigning lists [:] or copy() [more](https://github.com/cyberqurious/PyberSec/blob/main/ConceptCode002/DS_List&Ops005.py):
+### Assigning lists `[:] or copy()` [more](https://github.com/cyberqurious/PyberSec/blob/main/ConceptCode002/DS_List&Ops005.py):
 - Avoid assigning the one list to another because in python both list will point to same memory.
 - then if we'll modify one list, it will affect the other list as well.
 - To avoid this we can use [:] slicing method or in-built list copy() when assign one list to another.
