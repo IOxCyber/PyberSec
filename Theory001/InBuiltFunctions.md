@@ -23,4 +23,4 @@ print(int('0b101', 2)) # convert binary number into integer.
 
 9. Use to calculate the length of string, eg. len(string)
 
-10. 
+10. list() constructor is very handy for converting other collections into nice and simple lists.

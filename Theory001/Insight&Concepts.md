@@ -68,8 +68,18 @@ we were able to change the internal state of the object ‘cities’ by adding o
 '''
 ```
 
+### Address is the type of <int> hence below operations are possible.
+```
+x = 3
+y = 3
+print(id(x + y + 6), id(x), id(y - 1))  # all possible
 
+z = id(x) + 1
+print(type(id(z)))
+```
 
+### in-place modification
+- means change the value in a memory region.
 
 
 

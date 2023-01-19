@@ -57,4 +57,6 @@ str1 = 'Helloo'
 print(str1[0:4],'&') # can access the string by index.
 print(str1)
 
-
+# search for a char in string with "in" keyword
+str = 'String'
+print('i' in str)
