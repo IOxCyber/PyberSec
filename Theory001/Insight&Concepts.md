@@ -78,8 +78,16 @@ z = id(x) + 1
 print(type(id(z)))
 ```
 
-### in-place modification
-- means change the value in a memory region.
+### In-place list modification [more](https://github.com/cyberqurious/PyberSec/blob/main/ConceptCode002/DS_List&Ops005.py)
+- In place (will not return a value, no new list will be created)
+- means any modification will change the value in a memory region.
+- list are mutable, hence new list will not created but modified the original one.
+
+### Assigning lists [:] or copy() [more](https://github.com/cyberqurious/PyberSec/blob/main/ConceptCode002/DS_List&Ops005.py):
+- Avoid assigning the one list to another because in python both list will point to same memory.
+- then if we'll modify one list, it will affect the other list as well.
+- To avoid this we can use [:] slicing method or in-built list copy() when assign one list to another.
+
 
 
 

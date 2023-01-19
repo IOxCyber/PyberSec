@@ -13,7 +13,7 @@ new_list[0] = 'gum'
 
 # Avoid assigning the one list to another because in python both list will point to same memory.
 # then if we'll modify one list, it will affect the other list as well.
-# To avoid this we can use [:] slicing method when assign one list to another.
+# To avoid this we can use [:] slicing method or in-built list copy() when assign one list to another.
 
 print(new_list)
 print(amazon_cart)
