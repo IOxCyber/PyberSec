@@ -100,3 +100,7 @@ print('sort():', basket2)
 # reverse() - in place methods
 basket2.reverse()
 print('Reverse:', basket2)
+
+# length
+print(len(basket2))
+
