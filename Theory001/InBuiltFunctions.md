@@ -24,3 +24,10 @@ print(int('0b101', 2)) # convert binary number into integer.
 9. Use to calculate the length of string, eg. len(string)
 
 10. list() constructor is very handy for converting other collections into nice and simple lists.
+
+11. dict(key='value'): to create dictionary.
+```
+user2 = dict(name='Sunny')
+print(user2)
+```
+12. 

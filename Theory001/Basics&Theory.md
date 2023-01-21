@@ -21,7 +21,13 @@
 
 12. A method in python is somewhat similar to a function, except it is associated with object/classes.
 
-13. 
+13. None (absance of value) like Null in other language.
+
+14. 
+
+
+
+
 
 # Tips to Learn:
 First cover (Terms > Datatypes > Actions > Best Practice)
