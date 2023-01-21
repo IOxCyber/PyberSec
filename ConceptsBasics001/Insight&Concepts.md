@@ -121,7 +121,7 @@ print([*my_set, *my_list, *my_tup, *range(1, 4), *my_str])
 
 
 
-
+### Short Circuiting: [more](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not)
 
 
 
