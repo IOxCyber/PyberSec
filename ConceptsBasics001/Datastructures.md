@@ -16,4 +16,4 @@
 
 - Dictionary's duplicate key will be overwrite with latest value, **Key has to be unique.**
 
-- 
+- Set {values}: **Unordered** (Can't access by "Index"), **Unique values, mutable**
