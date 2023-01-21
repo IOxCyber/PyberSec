@@ -26,6 +26,7 @@ li2[0] = 23  # this modification will affect li1 too.
 print(id(li1), id(li2))
 print(li2, li1)
 
+# Example 3
 # Matrix: array within array or list within list
 
 matrix = [[1, 0, 1], [0, 1, 0], [1, 0, 1]]
@@ -37,6 +38,8 @@ print(matrix)  # print matrix
 print(matrix[0][0])  # 0th indexed list's 1st element.
 print(matrix[0:2])  # list slice
 
+
+# Example 4:
 ## List in-place methods (No value return, modify in memory coz immutable Data type: list) ##
 
 # these methods are in-place methods.
@@ -77,6 +80,9 @@ print(basket)
 new_list.clear()  # returns --> None
 print('All items removed.', new_list)
 
+
+
+# Example 5:
 # More methods
 basket2 = ['d', 'b', 'e', 'a', 'c', 'f']
 
@@ -103,4 +109,25 @@ print('Reverse:', basket2)
 
 # length
 print(len(basket2))
+
+
+# Example 6:
+# Define list with inbuilt 'list()' & range(start,end-1,stepover)
+
+basket3 = list(range(1,10))
+print(basket3)
+
+# reverse
+print(basket3[::-1])
+
+# .join() - Non in-place method, will return a value, joins the "separater" in the between lists items.
+sentance = '_'.join(['I', 'am','the','List']) # separater i.e ''
+
+print(sentance)
+
+# List Unpacking: store multiple values into one variable
+
+a,b,c,*other,d = [1,2,3,4,5,6]
+print('a:',a,'b:',b,'c:',c,'Other:',other,'d:',d)
+
 

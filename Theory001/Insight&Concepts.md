@@ -24,9 +24,7 @@
 ### Associativity: 
 - the order in which an expression is evaluated if it has multiple operators of the same precedence.
 - Almost all the operators have **left-to-right associativity** means left one is evaluated first.
-- 
-
- 
+   
 
 ### Augmented assignment Operator:
 > short hand for var = var + 1
@@ -80,13 +78,50 @@ print(type(id(z)))
 
 ### In-place list modification [more](https://github.com/cyberqurious/PyberSec/blob/main/ConceptCode002/DS_List&Ops005.py)
 - In place (will not return a value, no new list will be created)
-- means any modification will change the value in a memory region.
+- means in-place methods changes the value in a memory region.
 - list are mutable, hence new list will not created but modified the original one.
+
+### The non in-place methods of lists returns a value
 
 ### Assigning lists `[:] or copy()` [more](https://github.com/cyberqurious/PyberSec/blob/main/ConceptCode002/DS_List&Ops005.py):
 - Avoid assigning the one list to another because in python both list will point to same memory.
 - then if we'll modify one list, it will affect the other list as well.
 - To avoid this we can use [:] slicing method or in-built list copy() when assign one list to another.
+
+### List Unpacking: (a, b, c) = List/tuple
+- iterable unpacking operator (*), we can unpack muliple values in one variable.
+- List Unpacking: list or tuple assigned to a single variable (using *).
+- you can use only one unpacking operator (*)
+
+  
+### List packing: def mySum(*args)
+-  wraps all the arguments into a single variable
+-  both packing/unpacking possible with list, string, range, set, tuple, dictionary
+
+### Unpacking/packing Example:
+```
+my_tup = (1, 2, 3)  
+print((0, *my_tup, 4))  
+
+my_list = [1, 2, 3]  
+print([0, *my_list, 4])  
+
+my_set = {1, 2, 3}  
+print({0, *my_set, 4})  
+
+print([*my_set, *my_list, *my_tup, *range(1, 4)])  
+
+my_str = "123"  
+print([*my_set, *my_list, *my_tup, *range(1, 4), *my_str])
+```
+
+
+
+
+
+
+
+
 
 
 
