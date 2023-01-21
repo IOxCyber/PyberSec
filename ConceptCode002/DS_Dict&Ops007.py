@@ -24,6 +24,7 @@ dict2 = {
   123 : 1,
   True : False,
   'Key must be Immuatable' : 'must not change'
+  (1,2) : [1,2,3]
   # lst : 'not possible' # Dict keys must be immutable type i.e unchangeable
 }
 

@@ -19,7 +19,7 @@
 ### Operator Precedence:
 - The order in which an expression is evaluated.
 - Parentheses > Exponent > Unary (Plus, Minus) bitwise Not > Multi, Div, Floor, Modulo > Add & Sub > Bitwise shift Opr > Bitwise AND > XOR > OR > Comparisons, Identity, Membership operators > Logical NOT > AND > OR
-- 
+  
 
 ### Associativity: 
 - the order in which an expression is evaluated if it has multiple operators of the same precedence.
@@ -35,34 +35,36 @@
 
 ### Immutable Datatypes:
 >
-> **If we do any operation/modification on immutable datatype, at run time the temp variable of that datatype will be created & show the output and get destroyed as soon as the program terminated.**
+> If we do **any operation/modification on immutable datatype**, at run time the **temp variable of that datatype will be created & show the output and get destroyed** as soon as the program terminated.
 >
 
-'''
 - Int, Float, Tuple, bool, Complex, String, Stringfrozen set [note: immutable version of the set], Bytes
-- Changes internal state of the object i.e memory address & can be checked by id(var)
+- Can't change internal state of the object i.e memory address & can be checked by id(var)
 - as the value changes, the internal state ie memory address (identity) will change.
 - immutable objects, you seal the values and ensure that no threads can invoke overwrite/update to your data
 - Concept of Immutablity means Address will not modify.
 '''
+
+
+## Example Not-Mutable:
 ```
-# Example Not-Mutable:
 var1 = 200  # initialize the variable
 print('Variable {1}: Location {0}'.format(id(var1),var1))  # Keep an eye on "memory address in hexadecimal format" 
 
 var1 = 300  # re-assigned the variable
 print('Variable {1}: Location {0}'.format(id(var1),var1))   # Keep an eye on "memory address in hexadecimal format" (Changed)
+```
 
-
-# Example Mutable:
+## Example Mutable:
+```
 var2 = ['a','b']
 print(id(var2),var2) # Keep an eye on "memory address in hexadecimal format"
 
 var2[1] = 'c'
 print(id(var2),var2) # Keep an eye on "memory address in hexadecimal format" (Never Changes)
 
-'''
-we were able to change the internal state of the object ‘cities’ by adding one more city ‘Chennai’ to it, yet, the memory address of the object did not change. This confirms that we did not create a new object, rather, the same object was changed or mutated.
+
+'''we were able to change the internal state of the object ‘cities’ by adding one more city ‘Chennai’ to it, yet, the memory address of the object did not change. This confirms that we did not create a new object, rather, the same object was changed or mutated.
 '''
 ```
 
@@ -88,13 +90,13 @@ print(type(id(z)))
 - then if we'll modify one list, it will affect the other list as well.
 - To avoid this we can use [:] slicing method or in-built list copy() when assign one list to another.
 
-### List Unpacking: (a, b, c) = List/tuple
+### List Unpacking: `(a, b, c) = List/tuple`
 - iterable unpacking operator (*), we can unpack muliple values in one variable.
 - List Unpacking: list or tuple assigned to a single variable (using *).
 - you can use only one unpacking operator (*)
 
   
-### List packing: def mySum(*args)
+### List packing: `def mySum(*args)`
 -  wraps all the arguments into a single variable
 -  both packing/unpacking possible with list, string, range, set, tuple, dictionary
 
