@@ -62,3 +62,13 @@ var2 = True
 
 # integer to boolean
 print(bool(0)) 
+
+
+# Logical Operators:
+# > < == >= <= !=
+print({} == {})
+print('a' > 'A') 
+print(ord('A'))
+print( 1 < 2 > 3 < 4) # print((1 < 2) or (2 > 3) and (3 < 4))
+
+

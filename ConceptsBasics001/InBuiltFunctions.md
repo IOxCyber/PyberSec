@@ -30,4 +30,6 @@ print(int('0b101', 2)) # convert binary number into integer.
 user2 = dict(name='Sunny')
 print(user2)
 ```
-12. 
+12. To get the ASCII value of a char eg. (ord('A'))
+
+13. 
