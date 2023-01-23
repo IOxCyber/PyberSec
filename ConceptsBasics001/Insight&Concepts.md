@@ -121,7 +121,70 @@ print([*my_set, *my_list, *my_tup, *range(1, 4), *my_str])
 
 
 
+### Truthy & Falsy:
+- A "truthy" value will satisfy the check performed by if or while statements.
+- All values are considered "truthy" except for the following, which are all "falsy":
+```
+None
+False
+Numbers that are numerically equal to zero, including:
+0
+0.0
+0j
+decimal.Decimal(0)
+fraction.Fraction(0, 1)
+Empty sequences and collections, including:
+[] - an empty list
+{} - an empty dict
+() - an empty tuple
+set() - an empty set
+'' - an empty str
+b'' - an empty bytes
+bytearray(b'') - an empty bytearray
+memoryview(b'') - an empty memoryview
+an empty range, like range(0)
+objects for which
+obj.__bool__() returns False
+obj.__len__() returns 0, given that obj.__bool__ is undefined
+```
+
+
 ### Short Circuiting: [more](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not)
+- the stoppage of execution of boolean operation if the truth value of expression has been determined already.
+```
+# Short Circuiting
+
+# Example 1:
+expr1 = True
+expr2 = True
+
+if expr1 or expr2:  # since expr1 is true, interpreter will never eveluate the expr2
+  print('Only first expr is True or 2nd is true')
+else:
+  print('will only eveluated when both expr are False.')
+
+# Example 2:
+expr3 = False
+expr4 = True
+
+if expr3 and expr4:  # 'Since expr3 is false, expr4 will never evaluated'
+  print('Only when both Expr are True')
+else:
+  print("Any one condition is False or 1st one is false.")
+```
+
+
+
+### Ternary Operator/ conditional expression:
+
+```
+# condition_if_true if condition else condition_if_else
+
+friends = True
+
+print('Let\'s chat') if friends else print("Blocked.")
+```
+
 
 
 
