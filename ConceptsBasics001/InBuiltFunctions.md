@@ -4,7 +4,7 @@
 
 2. The combination of values, variables, operators, and function calls is termed as an **EXPRESSION**.
 
-3. id() returns an object’s integer identifier, can be used to check **Object Identity** or **a unique identification value of the object stored in the memory**
+3. **id()** returns an object’s integer identifier, can be used to check **Object Identity** or **a unique identification value of the object stored in the memory**
 
 4. - **is** operator used to check the Object Identity. eg: A is B.
 
@@ -15,21 +15,24 @@
 7. **int()**: convert a float to an integer.
    **float()**: convert an integer to a float.
 
-8. bin() - use to convert integer into the Binary.
+8. **bin()**- use to convert integer into the Binary.
 ```eg.
 print(bin(5)) #convert the 5 into binary number '0b101'
 print(int('0b101', 2)) # convert binary number into integer.
 ```
 
-9. Use to calculate the length of string, eg. len(string)
+9. **len(string)**: Use to calculate the length of string.
 
-10. list() constructor is very handy for converting other collections into nice and simple lists.
+10. **list(Datatype)** constructor is very handy for converting other collections into nice and simple lists.
 
-11. dict(key='value'): to create dictionary.
+11. **dict(key='value')**: to create dictionary.
 ```
 user2 = dict(name='Sunny')
 print(user2)
 ```
-12. To get the ASCII value of a char eg. (ord('A'))
+
+12. **ord('A')**: To get the Unicode value of a char. 
 
 13. 
+
+14. 

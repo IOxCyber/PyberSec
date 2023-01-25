@@ -123,6 +123,10 @@ print([*my_set, *my_list, *my_tup, *range(1, 4), *my_str])
 
 ### Truthy & Falsy:
 - A "truthy" value will satisfy the check performed by if or while statements.
+
+- But **an Empty DS containing other Empty DS will return True** i.e `print(bool([()]))`
+`print(bool({''}))`
+
 - All values are considered "truthy" except for the following, which are all "falsy":
 ```
 None
@@ -152,8 +156,6 @@ obj.__len__() returns 0, given that obj.__bool__ is undefined
 ### Short Circuiting: [more](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not)
 - the stoppage of execution of boolean operation if the truth value of expression has been determined already.
 ```
-# Short Circuiting
-
 # Example 1:
 expr1 = True
 expr2 = True
@@ -186,9 +188,30 @@ print('Let\'s chat') if friends else print("Blocked.")
 ```
 
 
+### ASCII: American Standard Code for Information Interchange, for every character there is a ascii value which converts into binary in order to communicate to Computer.
+```
+print('a' > 'A') # will compare the ascii value of both letters i.e 97 > 65
 
+N = 97; 
+print(chr(N)) # print char against value
+print(oct(N))
+print((hex(N)))
+```
 
+### is vs ==
+```
+# == The Equality operator (==) compares the values of both the operands and checks for value equality.
+print(True == 1)
+print('1' == 1)
+print([] == 1)
+print(10 == 10.0)
+print([1,2,3] == [1,2,3])
+print('a' == 'a')
 
+# is: For reference equality/ identity Operator, checks the location in memory same or not or belongs to same object
+print(True is True)
+print([1,2,3] is [1,2,3]) # both list are at different location.
+```
 
 
 
