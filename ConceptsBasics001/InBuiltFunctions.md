@@ -33,6 +33,6 @@ print(user2)
 
 12. **ord('A')**: To get the Unicode value of a char. 
 
-13. 
+13. **range()** function: to make iterable via a number.
 
 14. 

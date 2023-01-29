@@ -23,7 +23,10 @@
 
 13. None (absance of value) like Null in other language.
 
-14. 
+14. Iterables: An Object/collection of items that can be iterable over. eg. list, dict, set, tuple, strings.
+
+
+15. 
 
 
 

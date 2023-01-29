@@ -1,7 +1,8 @@
 # Function definition with "number of parameters" & Default Argument Values.
 # Remember to pass the default value after the Non-default arguments
-def add_two_numbers(number_one, number_two=5):
-  return number_one + number_two  # Returns the sum of the numbers, and is indented by 2 spaces.
+
+def add_two_numbers(param_one, default_param=5):
+  return param_one + default_param  # Returns the sum of the numbers, and is indented by 2 spaces.
 
 
 # Defining 2nd function
@@ -17,3 +18,4 @@ print(add_two_numbers(4))  # 9
 
 # Calling 2nd function
 print(stringConcate("Hello", str(77)))
+
