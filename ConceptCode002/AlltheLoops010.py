@@ -84,3 +84,41 @@ for index, char in enumerate(list(range(100))):
     print(f'index of 50 is: {index}')
 
 
+# while: to run a block code until a certain condition is met.
+# Remember to break, terminate the loop.
+# Where we have the conditions & number of execution isn't known.
+
+i = 0
+while i < 5:
+  print(i)
+  break
+
+  
+# while-else: untill the condition is true & doesn't know the termminate loop.
+i = 0
+while i < 5:
+  print(i)
+  i += 1
+else:
+  print("All work done!")
+
+
+# While with Break:
+while True:
+  r = input("To terminate type Bye or bye?")
+  if r in ["Bye","bye"]:
+    break
+
+
+# Continue: skip the iteration & go back to starting of the loop.
+# used to end the current iteration in a for loop (or a while loop), and continues to the next iteration
+
+my_list = [1, 2, 3]
+for i in my_list:
+  if i == 2: continue
+  print(i)
+
+# pass: Does nothings, a placeholder, filler.
+for i in my_list:
+  if i == 3: pass
+  print(i)
