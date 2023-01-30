@@ -218,4 +218,5 @@ print([1,2,3] is [1,2,3]) # both list are at different location.
 
 
 
+
 [^1]:Bytecode is computer object code that an interpreter converts into binary machine code so it can be read by a computer's hardware processor. The interpreter is typically implemented as a virtual machine (VM) that translates the bytecode for the target platform.

@@ -35,4 +35,7 @@ print(user2)
 
 13. **range()** function: to make iterable via a number.
 
-14. 
+14. **print(end='\n')**: The end key of print function will set the string that needs to be appended when printing is done. By default the end key is set by newline character.
+eg. `set end=''`, mostly used in pattern printing.
+
+15. 
