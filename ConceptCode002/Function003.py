@@ -79,3 +79,4 @@ def test(a):
 
 # help():  to give menu for a function.
 help(test)
+print(test.__doc__)
