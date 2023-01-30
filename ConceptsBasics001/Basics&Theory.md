@@ -26,7 +26,9 @@
 14. Iterables: An Object/collection of items that can be iterable over. eg. list, dict, set, tuple, strings.
 
 
-15. 
+15. Remember to pass the default value after the Non-default arguments & use return statement to return value from a function.
+
+16.  
 
 
 

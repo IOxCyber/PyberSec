@@ -214,8 +214,9 @@ print([1,2,3] is [1,2,3]) # both list are at different location.
 ```
 
 
-
-
+### function vs Method:
+- function: can be called independenly. eg. list()
+- 
 
 
 
