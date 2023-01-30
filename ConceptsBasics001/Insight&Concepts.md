@@ -176,7 +176,6 @@ else:
 ```
 
 
-
 ### Ternary Operator/ conditional expression:
 
 ```
@@ -216,7 +215,23 @@ print([1,2,3] is [1,2,3]) # both list are at different location.
 
 ### function vs Method:
 - function: can be called independenly. eg. list()
-- 
+- Rule: to define a function the order is as this >> params, *args, default params, **kwargs
+
+
+### *args vs **kwargs:
+- *arg: used to pass multiple numbers of arguments to a function.
+- **kwargs: accept keyworded variable-length argument passed by the function call in Dictionary datatype
+
+
+
+
+
+
+
+
+
+
+
 
 
 
