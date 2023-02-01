@@ -232,8 +232,8 @@ print([1,2,3] is [1,2,3]) # both list are at different location.
 - eg. **from package import modules** > use the methods as `modules.methods` -- useful to resolve the name collision.
 
 
-
-
+### try-except-finally: [more](https://docs.python.org/3/library/exceptions.html)
+- 
 
 
 
