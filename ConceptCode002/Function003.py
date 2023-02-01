@@ -80,3 +80,19 @@ def test(a):
 # help():  to give menu for a function.
 help(test)
 print(test.__doc__)
+
+
+# Scope: what variable do a function have access to.
+
+a = '3rd: Global' # Global: last priority
+
+def parent():
+  a = '2nd: Parent Local' # Parent function Local: 2nd priority
+  def child():
+    a = '1st: Local' # Local: 1st priority
+    return a
+    
+  return child()
+
+print(parent())
+print(a)
