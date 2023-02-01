@@ -96,3 +96,41 @@ def parent():
 
 print(parent())
 print(a)
+
+
+# Global: Explicitly use the Global variable
+
+glb = 5
+print(id(glb))
+
+def func():
+  global glb # Explicitly using the Global variable
+  print(id(glb)) # Same address as global var 'a'
+  glb += 3
+  return glb
+
+print(func())
+
+# Dependency injection: with out the Global Variable
+var = 5
+
+def func(var):
+  var += 1
+  return var
+
+print(func(func(func(var)))) # Dependency injection
+
+
+# nonlocal
+def outer():
+  x = "local"
+  def inner():
+    nonlocal x
+    x = "nonlocal"
+    print("inner:",x)
+
+  inner()
+  print("outer:", x)
+
+outer()
+

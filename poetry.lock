@@ -98,6 +98,14 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
+name = "django-utility"
+version = "0.2.2"
+description = "Provides some general helper functions and exceptions."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "flask"
 version = "2.2.2"
 description = "A simple framework for building complex web applications."
@@ -478,7 +486,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "flake8 
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "f328c469a46d9cb95c79b10c69318f07ccca3f40cc6eb43ef51c87ad2ff1879b"
+content-hash = "d25209c38c67a73f76f9691b7bd5950e333957431b53715abcf2a2cf6c71ec17"
 
 [metadata.files]
 aiohttp = []
@@ -490,6 +498,7 @@ charset-normalizer = []
 click = []
 colorama = []
 debugpy = []
+django-utility = []
 flask = []
 frozenlist = []
 idna = []
