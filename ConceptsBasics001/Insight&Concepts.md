@@ -223,6 +223,12 @@ print([1,2,3] is [1,2,3]) # both list are at different location.
 - **kwargs: accept keyworded variable-length argument passed by the function call in Dictionary datatype
 
 
+### packages & Modules
+- Packages: simply a **folder containing one or more modules**.
+- Modules: A set of python **files containing one or more methods** of other package's modules.
+- import by `import` keyword or a specific Method of the modules by `from` keyword.
+- eg. import package.module > use the methods as `package.module.method`
+- eg. from package.module import method > use the methods as `method`
 
 
 
