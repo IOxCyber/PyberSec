@@ -2,6 +2,7 @@
 
 # PyberSec: Python w.r.t CyberSec.
 [Official WebSite](https://www.python.org/)
+[Cheat Sheet](https://zerotomastery.io/cheatsheets/python-cheat-sheet?utm_source=udemy&utm_medium=coursecontent)
 
 ## Interpreter: Source Code > Intermediate > Output
 > SourceCode.py >> goes to Interpreter >> Convert Source Code into Byte Code[^1] (intermediate code) >> Execute Byte Code in CPython VM. > Show Output
