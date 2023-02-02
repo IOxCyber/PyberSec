@@ -20,6 +20,10 @@ my_file.close()
 
 # test.txt file is necessary to run below code
 # pathlib - object oriented filesystem paths.
+
+# with keyword: will close the file for you at the end of the block:
+# Syntex: with open('fileName',Mode='a/r/w') as testFile
+
 # To append a file:
 with open('sad.txt', mode='a') as my_file:
   text = my_file.write('):')
@@ -28,3 +32,25 @@ with open('sad.txt', mode='a') as my_file:
 # To read a file: from an absolute path
 with open('sad.txt', mode='r') as my_file:
   print(my_file.read())
+
+# checking if file exist, if not then raising the error on terminal.
+try:
+  with open('sadest.txt', mode='r') as my_file:
+    print(my_file.read())
+except FileNotFoundError as err:
+  print('File doesn\'t exist.')
+  raise err  # raising the error on terminal.
+except IOError as err:
+  print('IO error here!')
+  raise err  # raising the error on terminal.
+
+# Standard way to read a file:
+with open('sad.txt') as my_file:
+  print(my_file.readline())
+
+# To read, write, append: mode=r,r+(to write),a (default= r)
+with open('tests.txt', mode='a') as my_file:
+  text = my_file.write(':)')
+  # cursor reset to start of the file & overwrite the text to avoid this use 'a' - append option.
+  # 'w' - write a text to file & create a file.
+  print(text)
