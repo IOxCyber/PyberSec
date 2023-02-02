@@ -3,7 +3,6 @@
 # except: (put the error handling code)
 # finally: No matter what finally statement will execute after every iteration.
 
-
 # Example 1:
 while True:
   try:
@@ -40,7 +39,6 @@ def sum(n1, n2):
 
 print(sum(1 + '2'))
 
-
 # Example 4:
 while True:
   try:
@@ -51,5 +49,24 @@ while True:
   else:
     print('Thank you!')
     break
-  finally: # run after every iteration executed.
+  finally:  # run after every iteration executed.
     print("Logs captured.")
+
+# Example 5:
+while True:
+  try:
+    age = int(input("Enter Age: "))
+    10 / age  # (Error Prone Code)
+  except ValueError:  # 1st error handled
+    print("Try again, Age must be a number.")
+    continue
+  except ZeroDivisionError:  # 2nd error handled
+    print("Try again, Age must be greater than Zero.")
+    break
+  else:
+    print('Thank you!')
+  finally:
+    print('Finally, run everytime!')
+  print('The-End!')
+
+# Working of code > while > try > error? > catch it in except > go to while now.
