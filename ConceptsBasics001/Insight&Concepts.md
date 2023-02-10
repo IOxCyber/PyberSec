@@ -55,6 +55,15 @@ var1 = 300  # re-assigned the variable
 print('Variable {1}: Location {0}'.format(id(var1),var1))   # Keep an eye on "memory address in hexadecimal format" (Changed)
 ```
 
+
+
+### Mutable Datatypes: LDS (List, Dict, Set)
+>
+> whenever an object is susceptible(easily changed or affected) to internal change or has the ability to change its values.
+>
+- List, Dictionary, Set.
+
+
 ## Example Mutable:
 ```
 var2 = ['a','b']
