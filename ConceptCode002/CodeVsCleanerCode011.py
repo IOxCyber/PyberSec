@@ -11,7 +11,7 @@ def is_even(num):
 
 # Cleaner Code
 def is_even(num):
-  return (num % 2 == 0) # evaluate True/False
+  return (num % 2 == 0) # evaluate as True/False
     
 
 # Function calling
