@@ -42,11 +42,10 @@ eg. `set end=''`, mostly used in pattern printing.
 
 > print(test.__doc__): to open doc string for a function.
 
-16. # to find the largest item in an iterable
-
-17. # max(iterable, *iterables, key, default)
+16. To find the largest item in an iterable
+- max(iterable, *iterables, key, default)
 - to find the largest item between two or more objects
 - max(arg1, arg2, *args, key)
 - in case of string, max returns the alphabetically largest letter string.
 
-18. 
+17. 
