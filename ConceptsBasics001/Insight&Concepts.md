@@ -126,7 +126,8 @@ my_str = "123"
 print([*my_set, *my_list, *my_tup, *range(1, 4), *my_str])
 ```
 ### Ordered & Unordered DS:
-
+-  lists, strings and tuples are ordered collection of objects (can be accessed by Index) 
+-  sets and dictionaries are unordered collection of objects (can not accessed by Index)
 
 
 
@@ -242,9 +243,23 @@ print([1,2,3] is [1,2,3]) # both list are at different location.
 
 
 ### try-except-finally: [more](https://docs.python.org/3/library/exceptions.html)
+` try:
+    # Error Prone Code
+  except ErrorName:
+    # Handling Code
+  finally:
+    # run everytime whether the Error occured or not.
+`
+
+### key argument in In-Built Methods:
+https://stackoverflow.com/questions/18296755/python-max-function-using-key-and-lambda-expression
+https://www.w3schools.com/python/python_lambda.asp
+
+### lambda Function: an anonymous function
 - 
-
-
+`def func(p):
+   return p.totalScore   
+`
 
 
 
