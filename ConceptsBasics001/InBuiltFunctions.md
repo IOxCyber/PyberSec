@@ -48,4 +48,18 @@ eg. `set end=''`, mostly used in pattern printing.
 - max(arg1, arg2, *args, key)
 - in case of string, max returns the alphabetically largest letter string.
 
-17. 
+17. Map(): (More)[https://realpython.com/python-map-function/#understanding-map]
+- takes a function and an iterable, and map() will create an object.
+- takes a function object and an iterable (or multiple iterables) as arguments and returns an iterator that yields transformed items on demand.
+- Syntex: map(function, iterable[, iterable1, iterable2,..., iterableN])
+- 
+
+
+
+
+
+
+
+
+
+
