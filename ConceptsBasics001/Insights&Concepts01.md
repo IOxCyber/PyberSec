@@ -68,3 +68,11 @@ var = 4.56745    #Initialising the variable "x"
 # using the format specifier "%" to print value till 2 decimal places
 print("%.2f" % var)
 ```
+
+### List Comprehension:
+
+
+
+
+
+
