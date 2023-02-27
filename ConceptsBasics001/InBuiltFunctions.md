@@ -52,6 +52,7 @@ eg. `set end=''`, mostly used in pattern printing.
 - takes a function and an iterable, and map() will create an object.
 - takes a function object and an iterable (or multiple iterables) as arguments and returns an iterator that yields transformed items on demand.
 - Syntex: map(function, iterable[, iterable1, iterable2,..., iterableN])
+- Even though the Python documentation calls this argument function, it can be any Python callable. This includes built-in functions, classes, methods, lambda functions, and user-defined functions.
 - 
 
 
