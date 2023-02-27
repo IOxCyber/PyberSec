@@ -261,8 +261,12 @@ https://www.w3schools.com/python/python_lambda.asp
    return p.totalScore   
 `
 
-
-
+### Format Specifier: C-style string formatting to create new, formatted strings
+```
+var = 4.56745    #Initialising the variable "x"
+# using the format specifier "%" to print value till 2 decimal places
+print("%.2f" % var)
+```
 
 
 
