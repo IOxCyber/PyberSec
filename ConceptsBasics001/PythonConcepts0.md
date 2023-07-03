@@ -14,7 +14,7 @@
 
 ### Specialized Data Types: Packages & Modules to add functionality.
 
-> **None:  Absence of Value!**
+> *None:  Absence of Value!*
 
 ### Operator Precedence:
 - The order in which an expression is evaluated.
@@ -23,7 +23,7 @@
 
 ### Associativity: 
 - the order in which an expression is evaluated if it has multiple operators of the same precedence.
-- Almost all the operators have **left-to-right associativity** means left one is evaluated first.
+- Almost all the operators have `left-to-right associativity` means left one is evaluated first.
    
 
 ### Augmented assignment Operator:
@@ -34,19 +34,14 @@
 
 
 ### Immutable Datatypes:
->
-> If we do **any operation/modification on immutable datatype**, at run time the **temp variable of that datatype will be created & show the output and get destroyed** as soon as the program terminated.
->
-
-- Int, Float, Tuple, bool, Complex, String, Stringfrozen set [note: immutable version of the set], Bytes
-- Can't change internal state of the object i.e memory address & can be checked by id(var)
+- If we do `any operation/modification on immutable datatype`, at run time the `temporary variable of that datatype will be created & show the output and get destroyed` as soon as the program terminated.
+- `Int, Float, Tuple, bool, Complex, String, Stringfrozen set [note: immutable version of the set], Bytes`
+- `Can't change internal state` of the object i.e `memory address` & can be `checked by id(var)`
 - as the value changes, the internal state ie memory address (identity) will change.
 - immutable objects, you seal the values and ensure that no threads can invoke overwrite/update to your data
-- Concept of Immutablity means Address will not modify.
-'''
+- `Concept of Immutablity means Address will not modify.`
 
-
-## Example Not-Mutable:
+> Example Not-Mutable:
 ```
 var1 = 200  # initialize the variable
 print('Variable {1}: Location {0}'.format(id(var1),var1))  # Keep an eye on "memory address in hexadecimal format" 
@@ -57,27 +52,22 @@ print('Variable {1}: Location {0}'.format(id(var1),var1))   # Keep an eye on "me
 
 
 
-### Mutable Datatypes: LDS (List, Dict, Set)
->
-> whenever an object is susceptible(easily changed or affected) to internal change or has the ability to change its values.
->
+## Mutable Datatypes: LSD (List, Set, Dict)
+- whenever an object is susceptible(easily changed or affected) to internal change or has the ability to change its values.
 - List, Dictionary, Set.
 
-
-## Example Mutable:
+> Example Mutable:
 ```
 var2 = ['a','b']
 print(id(var2),var2) # Keep an eye on "memory address in hexadecimal format"
 
 var2[1] = 'c'
 print(id(var2),var2) # Keep an eye on "memory address in hexadecimal format" (Never Changes)
-
-
-'''we were able to change the internal state of the object ‘cities’ by adding one more city ‘Chennai’ to it, yet, the memory address of the object did not change. This confirms that we did not create a new object, rather, the same object was changed or mutated.
-'''
 ```
 
-### Address is the type of `int` hence below operations are possible.
+`we were able to change the internal state of the object ‘cities’ by adding one more city ‘Chennai’ to it, yet, the memory address of the object did not change. This confirms that we did not create a new object, rather, the same object was changed or mutated.`
+
+> Address is the type of `int` hence below operations are possible.
 ```
 x = 3
 y = 3
@@ -89,15 +79,15 @@ print(type(id(z)))
 
 ### In-place list modification [more](https://github.com/cyberqurious/PyberSec/blob/main/ConceptCode002/DS_List&Ops005.py)
 - In place (will not return a value, no new list will be created)
-- means in-place methods changes the value in a memory region.
+- means `in-place methods changes the value in a memory region.`
 - list are mutable, hence new list will not created but modified the original one.
 
 ### The non in-place methods of lists returns a value
 
 ### Assigning lists `[:] or copy()` [more](https://github.com/cyberqurious/PyberSec/blob/main/ConceptCode002/DS_List&Ops005.py):
-- Avoid assigning the one list to another because in python both list will point to same memory.
+- `Avoid assigning the one list to another` because in python both list will point to same memory.
 - then if we'll modify one list, it will affect the other list as well.
-- To avoid this we can use [:] slicing method or in-built list copy() when assign one list to another.
+- To avoid this we can `use [:] slicing method or in-built list copy()` when assign one list to another.
 
 ### List Unpacking: `(a, b, c) = List/tuple`
 - iterable unpacking operator (*), we can unpack muliple values in one variable.

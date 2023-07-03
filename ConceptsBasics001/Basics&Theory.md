@@ -16,7 +16,7 @@
 9. A Python variable is a symbolic name that is a `**reference or pointer**` to an object. Once an object is assigned to a variable, you can refer to the object by that name.
 
 ### Function:
-10. Functions `**explicitly**` return a value or object via the `**return**` keyword otherwise returns `**None**`.
+10. Functions `explicitly` return a value or object via the `return` keyword otherwise returns `None`.
 11. **Default Argument** Values must be declare after **Non-Default Argument** in Functions.
 
 12. A method in python is somewhat similar to a function, except it is associated with object/classes.
