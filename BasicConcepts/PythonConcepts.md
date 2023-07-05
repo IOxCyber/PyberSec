@@ -1,6 +1,6 @@
 ## :: Insight & Concepts in Python ::
 
-### Datatypes: Fundamental Data Types
+## Datatypes: Fundamental Data Types
 
 - Numberic:
   int (whole numbers as 1234, -10), float(0.0,3.14,-9.01), complex (Not useful for common tasks)
@@ -12,28 +12,28 @@
 - Binary types: bytes, bytearray, memoryview.
 
 
-### Specialized Data Types: Packages & Modules to add functionality.
+## Specialized Data Types: Packages & Modules to add functionality.
 
 > *None:  Absence of Value!*
 
-### Operator Precedence:
+## Operator Precedence:
 - The order in which an expression is evaluated.
 - Parentheses > Exponent > Unary (Plus, Minus) bitwise Not > Multi, Div, Floor, Modulo > Add & Sub > Bitwise shift Opr > Bitwise AND > XOR > OR > Comparisons, Identity, Membership operators > Logical NOT > AND > OR
   
 
-### Associativity: 
+## Associativity: 
 - the order in which an expression is evaluated if it has multiple operators of the same precedence.
 - Almost all the operators have `left-to-right associativity` means left one is evaluated first.
    
 
-### Augmented assignment Operator:
+## Augmented assignment Operator:
 > short hand for var = var + 1
 > var = 1 # defined var
 > var -= 1 # use the assignment Operator
 > var += 1 # use the assignment Operator
 
 
-### Immutable Datatypes:
+## Immutable Datatypes:
 - If we do `any operation/modification on immutable datatype`, at run time the `temporary variable of that datatype will be created & show the output and get destroyed` as soon as the program terminated.
 - `Int, Float, Tuple, bool, Complex, String, Stringfrozen set [note: immutable version of the set], Bytes`
 - `Can't change internal state` of the object i.e `memory address` & can be `checked by id(var)`
@@ -41,7 +41,7 @@
 - immutable objects, you seal the values and ensure that no threads can invoke overwrite/update to your data
 - `Concept of Immutablity means Address will not modify.`
 
-> Example Not-Mutable:
+## Example Not-Mutable:
 ```
 var1 = 200  # initialize the variable
 print('Variable {1}: Location {0}'.format(id(var1),var1))  # Keep an eye on "memory address in hexadecimal format" 
@@ -77,29 +77,29 @@ z = id(x) + 1
 print(type(id(z)))
 ```
 
-### In-place list modification [more](https://github.com/cyberqurious/PyberSec/blob/main/ConceptCode002/DS_List&Ops005.py)
+## In-place list modification [more](https://github.com/cyberqurious/PyberSec/blob/main/ConceptCode002/DS_List&Ops005.py)
 - In place (will not return a value, no new list will be created)
 - means `in-place methods changes the value in a memory region.`
 - list are mutable, hence new list will not created but modified the original one.
 
-### The non in-place methods of lists returns a value
+## The non in-place methods of lists returns a value
 
-### Assigning lists `[:] or copy()` [more](https://github.com/cyberqurious/PyberSec/blob/main/ConceptCode002/DS_List&Ops005.py):
+## Assigning lists `[:] or copy()` [more](https://github.com/cyberqurious/PyberSec/blob/main/ConceptCode002/DS_List&Ops005.py):
 - `Avoid assigning the one list to another` because in python both list will point to same memory.
 - then if we'll modify one list, it will affect the other list as well.
 - To avoid this we can `use [:] slicing method or in-built list copy()` when assign one list to another.
 
-### List Unpacking: `(a, b, c) = List/tuple`
+## List Unpacking: `(a, b, c) = List/tuple`
 - iterable unpacking operator (*), we can unpack muliple values in one variable.
 - List Unpacking: list or tuple assigned to a single variable (using *).
 - you can use only one unpacking operator (*)
 
   
-### List packing: `def mySum(*args)`
+## List packing: `def mySum(*args)`
 -  wraps all the arguments into a single variable
 -  both packing/unpacking possible with list, string, range, set, tuple, dictionary
 
-### Unpacking/packing Example:
+## Unpacking/packing Example:
 ```
 my_tup = (1, 2, 3)  
 print((0, *my_tup, 4))  
@@ -115,13 +115,13 @@ print([*my_set, *my_list, *my_tup, *range(1, 4)])
 my_str = "123"  
 print([*my_set, *my_list, *my_tup, *range(1, 4), *my_str])
 ```
-### Ordered & Unordered DS:
+## Ordered & Unordered DS:
 -  lists, strings and tuples are ordered collection of objects (can be accessed by Index) 
 -  sets and dictionaries are unordered collection of objects (can not accessed by Index)
 
 
 
-### Truthy & Falsy:
+## Truthy & Falsy:
 - A "truthy" value will satisfy the check performed by if or while statements.
 
 - But **an Empty DS containing other Empty DS will return True** i.e `print(bool([()]))`
@@ -153,7 +153,7 @@ obj.__len__() returns 0, given that obj.__bool__ is undefined
 ```
 
 
-### Short Circuiting: [more](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not)
+## Short Circuiting: [more](https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not)
 - the stoppage of execution of boolean operation if the truth value of expression has been determined already.
 ```
 # Example 1:
@@ -176,7 +176,7 @@ else:
 ```
 
 
-### Ternary Operator/ conditional expression:
+## Ternary Operator/ conditional expression:
 
 ```
 # condition_if_true if condition else condition_if_else
