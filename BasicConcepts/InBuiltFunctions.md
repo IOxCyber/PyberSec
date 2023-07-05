@@ -14,7 +14,8 @@ numbers = [1, 2, 3]
 print(dir(numbers))  # It'll return the methods whatever is applicable to the numbers object.
 ```
 
-4. enumerate(): `yields both the index and value` of each item in an iterable.
+4. enumerate(): 
+- `yields both the index and value` of each item in an iterable (list, tuple, or string)
 ```
 fruits = ['apple', 'banana', 'cherry']
 for index, fruit in enumerate(fruits):
@@ -26,20 +27,22 @@ for index, fruit in enumerate(fruits):
 
 ```
 
-5. Return an iterator:
-a. `filter(): Filters out elements from an iterable based on a specified condition` and returns an iterator with the filtered results.
+5. Higher-order functions:
+a. `filter(func,iterable): Filters out elements from an iterable (List, sets, Tuples) based on a specified condition` and returns an iterator with the filtered results.
+- 
 ```
 numbers = [1, 2, 3, 4, 5]
 even_numbers = filter(lambda x: x % 2 == 0, numbers)
 print(list(even_numbers))  # Output: [2, 4]
 ```
 
-b. `Map(): Applies a function to each item in an iterable` and returns an iterator with the results.
+b. `Map(): Applies a function to each item in an iterable (List,Tuples,Sets,Strings,Dict)` and returns an iterator with the results.
 - Syntex: map(function, iterable[, iterable1, iterable2,..., iterableN])
 - The argument function can be any Python callable that includes built-in functions, classes, methods, lambda functions, and user-defined functions.
 ```
 numbers = [1, 2, 3, 4, 5]
-squared = map(lambda x: x**2, numbers)
+squared = map(lambda x: x**2, numbers) # lambda function takes each element x from the numbers list & square it.
+# squared is an map iterator which can be convert to any Data type
 print(list(squared))  # Output: [1, 4, 9, 16, 25]
 ```
 

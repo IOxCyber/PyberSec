@@ -33,9 +33,14 @@
 
 > None (absance of value) like Null in other language.
 
-## Iterables: 
-- An `Object/collection of items that can be iterable over. eg. list, dict, set, tuple, strings.`
+## Iterables & Iterator: 
+1. Iterable:
+- any `object capable of returning its elements one at a time` eg. `list, dict, set, tuple, strings.`
+- objects that can be looped over using a for loop.
 
+2. Iterator 
+- an object that allows you to iterate over collections of data, such as lists, tuples, dictionaries, and sets.
+- iterator is an object which implements the iterator protocol, which consist of the methods __iter__() and __next__() .
 
 # Tips to Learn:
 First cover (Terms > Datatypes > Actions > Best Practice)
