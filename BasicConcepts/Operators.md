@@ -1,0 +1,1 @@
+`is` operator used to check the `Object Identity i.e address in memory`. eg: A is B.
