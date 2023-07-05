@@ -2,8 +2,6 @@
 # List packing: wraps all the arguments into a single variable
 def mySum(*args):
   return sum(args)
-
-
 print(mySum(1, 2, 3, 4, 5))
 print(mySum(10, 20))
 

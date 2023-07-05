@@ -35,8 +35,6 @@ def sum(n1, n2):
   except TypeError as err:  # Always try to catch the ErrorName
     # as err > Storing the error message in err
     print(f"Something wrong: {err}")
-
-
 print(sum(1 + '2'))
 
 # Example 4:
