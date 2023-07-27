@@ -52,7 +52,7 @@ for x in (1, 2, 3, 4, 5):  # tuple
 for x in range(0, 10, 2): 
   print(x)
 
-
+`Important`
 for _ in range(0, 10, 2): # can we used when no need for var name.
   print(_)
 
