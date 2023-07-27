@@ -63,11 +63,30 @@ https://www.w3schools.com/python/python_lambda.asp
    return p.totalScore   
 `
 
-### 9. Format Specifier: C-style string formatting to create new, formatted strings
+### 9. Precision Handling:
 ```
-var = 4.56745    #Initialising the variable "x"
-# using the format specifier "%" to print value till 2 decimal places
-print("%.2f" % var)
+
+# Python code to demonstrate precision
+# and round()
+ 
+# initializing value
+a = 3.4536
+ 
+# using "%" to print value till 2 decimal places
+print("The value of number till 2 decimal place(using %) is : ", end="")
+print('%.2f' % a)
+ 
+# using format() to print value till 3 decimal places
+print("The value of number till 3 decimal place(using format()) is : ", end="")
+print("{0:.3f}".format(a))
+ 
+# using round() to print value till 2 decimal places
+print("The value of number till 2 decimal place(using round()) is : ", end="")
+print(round(a, 2))
+ 
+# using f-string to print value till 2 decimal places
+print("The value of number till 2 decimal place(using f-string) is : ", end="")
+print(f"{a:0,.2f}")
 ```
 
 ### 10. List Comprehension:
