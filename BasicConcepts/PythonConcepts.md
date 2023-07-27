@@ -14,7 +14,7 @@
 
 ## Specialized Data Types: Packages & Modules to add functionality.
 
-> *None:  Absence of Value!*
+> None:  Absence of Value!
 
 ## Operator Precedence:
 - The order in which an expression is evaluated.
