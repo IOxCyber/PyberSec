@@ -10,7 +10,14 @@ def check_ip(input_data):
     except ValueError:
         return "Not a valid IP address"
 
-# Input from user
-user_input = input("Enter something: ").strip()
-result = check_ip(user_input)
-print(result)
+while True:
+    # Input from user
+    user_input = input("Enter an IP address: ").strip()
+    result = check_ip(user_input)
+    print(result)
+    
+    # Ask user if they want to continue
+    choice = input("Do you want to check another IP? (Y/N): ").strip().lower()
+    if choice != 'y':
+        print("Exiting, Bye!")
+        break
