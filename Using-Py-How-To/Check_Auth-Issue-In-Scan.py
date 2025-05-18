@@ -72,11 +72,15 @@ def main():
     else:
         print("[✖] Port 139 not open.")
 
-    print("\n OS Detection Guess:")
+       print("\n[🧠] OS Detection Guess:")
+    detected = False
     for line in os_result.splitlines():
-        if "OS details" in line or "Running" in line:
+        if "OS details" in line or "Running" in line or "Device type" in line or "Aggressive OS guesses" in line:
             print("   →", line.strip())
-    print("="*40)
+            detected = True
+    if not detected:
+        print("   → No OS information detected.")
+
 
 if __name__ == "__main__":
     main()
