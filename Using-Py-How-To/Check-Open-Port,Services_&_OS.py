@@ -12,7 +12,7 @@ def scan_ip(ip):
     print(f"\n[*] Scanning IP: {ip} for OS and open ports...\n")
     # Use Nmap with OS detection (-O) and common ports scan
     try:
-        result = subprocess.check_output(['nmap', '-O', ip], stderr=subprocess.STDOUT, text=True)
+        result = subprocess.check_output(['nmap', '-O', ip], stderr=subprocess.STDOUT, text=True) #check_output(..) function will execute cmd ie nmap -O in CLI
         print(result)
     except subprocess.CalledProcessError as e:
         print(f"Error: {e.output}")
