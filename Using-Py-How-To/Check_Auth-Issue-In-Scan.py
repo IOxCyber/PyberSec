@@ -13,14 +13,14 @@ def is_valid_ip(ip):
 def run_nmap_script(ip, ports, scripts):
     try:
         command = ['nmap', '-p', ports, '--script', scripts, ip]
-        result = subprocess.check_output(command, stderr=subprocess.STDOUT, text=True)
+        result = subprocess.check_output(command, stderr=subprocess.STDOUT, text=True) #check_output(..) function will execute cmd ie nmap -O in CLI
         return result
     except subprocess.CalledProcessError as e:
         return f"[!] Nmap script scan failed:\n{e.output}"
 
 def os_detection(ip):
     try:
-        result = subprocess.check_output(['nmap', '-O', ip], stderr=subprocess.STDOUT, text=True)
+        result = subprocess.check_output(['nmap', '-O', ip], stderr=subprocess.STDOUT, text=True) #check_output(..) function will execute cmd ie nmap -O in CLI
         return result
     except subprocess.CalledProcessError as e:
         return f"[!] OS Detection Failed:\n{e.output}"
