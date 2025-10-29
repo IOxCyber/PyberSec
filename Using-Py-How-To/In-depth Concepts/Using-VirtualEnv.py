@@ -12,7 +12,7 @@ Create Environment using module mode (-m)👇
 python3 -m venv <Environment-Name>
 
 Activate the Environment 👇 
-source <env-name>/bin/activat
+source <env-name>/bin/activate
 
 ```
 
